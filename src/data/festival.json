@@ -1,0 +1,14 @@
+{
+    "data" : [
+    { "name": "New Year's Day", "selected": false },
+    { "name": "Martin Luther King, Jr. Day", "selected": false },
+    { "name": "George Washington's Birthday", "selected": false },
+    { "name": "Memorial Day", "selected": false },
+    { "name": "Independence Day", "selected": false },
+    { "name": "Labor Day", "selected": false },
+    { "name": "Columbus Day", "selected": false },
+    { "name": "Veterans Day", "selected": false },
+    { "name": "Thanksgiving Day", "selected": false },
+    { "name": "Christmas Day", "selected": false }
+  ]
+}
