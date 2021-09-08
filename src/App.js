@@ -1,11 +1,11 @@
 import './App.css';
-import UserTable from './Components/UserTable';
+import SecondaryCheckbox from './Components/CheckBox/SecondaryCheckbox';
+
 function App() {
   
   return (
     <div className="App">
-     <UserTable />
-
+      <SecondaryCheckbox />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import festival from "../../data/festival.json";
-import CheckBox from "../CheckBox";
-const UserTable = () => {
+import CheckBox from "./PrimaryCheckBox";
+const SecondaryCheckbox = () => {
   const [tData, setData] = useState({
     allChecked: false,
     data: [
@@ -70,4 +70,4 @@ const UserTable = () => {
   );
 };
 
-export default UserTable;
+export default SecondaryCheckbox;
