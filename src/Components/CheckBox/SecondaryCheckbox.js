@@ -23,6 +23,7 @@ const SecondaryCheckbox = () => {
     let checked = e.target.checked;
     setData((p) => {
       let { allChecked, data } = p;
+      //when all is selected then all the checkbox will be true
       if (itemName === "all") {
         allChecked = checked;
         data = data.map((item) => ({ ...item, selected: checked }));
@@ -48,8 +49,8 @@ const SecondaryCheckbox = () => {
   };
 
   return (
-    <div>
-      <form></form>
+    <div className="container">
+      <h2>Checkboxes</h2>
       <input
         type="checkbox"
         name="all"

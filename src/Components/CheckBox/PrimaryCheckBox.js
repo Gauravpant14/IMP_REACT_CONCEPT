@@ -2,7 +2,7 @@ import React from 'react'
 
 const CheckBox = ({ name, label, onChange, checked,value }) => {
     return (
-        <li key={name}>
+        <li key={name} className="checkItems">
         <label>
           <input
             type="checkbox"
