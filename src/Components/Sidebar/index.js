@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SideBar = ({setChecbox,setUseRedHook}) => {
+const SideBar = ({setChecbox,setUseRedHook,setTodo}) => {
 
     return (
         <div className=" sideBar">
@@ -10,6 +10,9 @@ const SideBar = ({setChecbox,setUseRedHook}) => {
                 </li>
                 <li onClick={()=> setUseRedHook((pre) => !pre)}>
                     UseReducer Hook
+                </li>
+                <li onClick={()=> setTodo((pre) => !pre)}>
+                    Todo App
                 </li>
             </ul>
         </div>

@@ -54,3 +54,9 @@
 .active{
   background: #c10303;
 }
+
+.todoslist {
+  max-height: 190px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
