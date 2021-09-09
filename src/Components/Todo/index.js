@@ -14,7 +14,7 @@ switch (action.type) {
     case ACTIONS.TOGGLE_TODO:
         return todo.map((e) => {
             if(e.id === action.payload.id){
-                return {...todo, completed:true}
+                return {...e,completed:!e.completed};
             }
             return todo;
         });
@@ -39,17 +39,34 @@ const TodoApp = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         dispatch({type: ACTIONS.ADD_TODO, payload: { data: name}});
-        setName('')
+        setName('');
     }
-    // console.log(todo)
+
+    const checkBoxDetails = (info,id) => {
+        console.log(info.target.checked,"....",id);
+        dispatch({type:ACTIONS.TOGGLE_TODO, payload:{ id: id}})
+    }
+    console.log(todo,"this is todo")
     return (
-        <form className="container" onSubmit={(e) => handleSubmit(e)}>
+        <form className="container" onSubmit={handleSubmit}>
             <h2>Todo Using UseReducer</h2>
             <input type="text" value={name} onChange={(e)=> setName(e.target.value)} />
             <div className="todoslist">
             {
                 todo.map((e) => {
-                    return <TodoList key={e.id} todo={e} dispatch={dispatch}/>
+                    return (
+                        <div key={e.id}>
+                            <div>
+                                <input type="checkbox" name={e.name} value={e.name} onChange={(info) => checkBoxDetails(info,e.id) }/>
+                                <li onClick={()=> dispatch({type: ACTIONS.DELETE_TODO, payload:{id: e.id}})} style={{color: e.completed ? 'green' : 'red'}} >
+                                    {e.name}
+                                 </li>
+                               
+                                {/* <button onClick={()=> dispatch({type: ACTIONS.DELETE_TODO, payload:{id: e.id}})}>Delete</button>
+                                <button>Toggle</button> */}
+                            </div>
+                        </div>
+                    )
                 })
             }
             </div>

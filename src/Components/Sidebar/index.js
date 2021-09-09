@@ -1,17 +1,32 @@
 import React from 'react'
 
-const SideBar = ({setChecbox,setUseRedHook,setTodo}) => {
+const SideBar = ({state,setState}) => {
 
     return (
         <div className=" sideBar">
             <ul>
-                <li onClick={()=> setChecbox((pre) => !pre)}>
+                <li onClick={()=> setState({
+                    ...state,
+                    checkbox:!state.checkbox
+                })} style={{color: state.checkbox ? 'red' : '#fff'}}>
                     CheckBox
                 </li>
-                <li onClick={()=> setUseRedHook((pre) => !pre)}>
+                <li onClick={()=> setState({
+                    ...state,
+                    useRedHook:!state.useRedHook
+                })} style={{color: state.useRedHook ? 'red' : '#fff'}} >
                     UseReducer Hook
                 </li>
-                <li onClick={()=> setTodo((pre) => !pre)}>
+                <li onClick={()=> setState({
+                    ...state,
+                    useCon:!state.useCon
+                })} style={{color: state.useCon ? 'red' : '#fff'}}>
+                    UseContext Hook
+                </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    todoOpen:!state.todoOpen
+                })} style={{color: state.todoOpen ? 'red' : '#fff'}}>
                     Todo App
                 </li>
             </ul>

@@ -2,7 +2,7 @@ import React,{useCallback} from 'react'
 import { ACTIONS } from '.'
 
 function TodoList({todo,dispatch}) {
-   
+   console.log(todo.id)
     return (
         <div>
             <li style={todo.completed ? {"backgroundColor":'green' }: {"backgroundColor":'red'}}>
