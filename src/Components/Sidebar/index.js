@@ -29,6 +29,12 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.todoOpen ? 'red' : '#fff'}}>
                     Todo App
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    useRef:!state.useRef
+                })} style={{color: state.useRef ? 'red' : '#fff'}}>
+                    UseRef Use
+                </li>
             </ul>
         </div>
     )

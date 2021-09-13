@@ -5,13 +5,15 @@ import UseReducer from "./Components/hooks/UseReducer/UseReducer";
 import SideBar from "./Components/Sidebar";
 import TodoApp from "./Components/Todo";
 import UseContextHook from "./Components/hooks/UseContextUse";
+import UseRefUse from "./Components/hooks/UseRefUse";
 
 function App() {
   const [state,setState] = useState({
     checkbox:false,
     useRedHook:false,
     todoOpen:false,
-    useCon:false
+    useCon:false,
+    useRef:false
   })
 
   return (
@@ -28,6 +30,7 @@ function App() {
         {state.useRedHook && <UseReducer />}
         {state.todoOpen && <TodoApp />}
         {state.useCon && <UseContextHook />}
+        {state.useRef && <UseRefUse />}
       </main>
     </div>
   );
