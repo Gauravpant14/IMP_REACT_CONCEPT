@@ -20,17 +20,31 @@ const SearchBox = () => {
         const filteredCountry = countryApi.filter((countr) => countr.label.country.toLowerCase().includes(word.toLowerCase()));
         setCountries(filteredCountry);
     }
+    let val = [];
+    const getCheckBoxVal = (e) => {
+        const checked = e.target.checked;
+        const label = e.target.value;
+     if(checked){
+      val.push({name: label, isChecked:checked})
+     }
+     else{
+        val = val.filter((e) => e.name !== label)
+     }
+    }
+    const getValues = () =>{
+        console.log(val);
+    }
     useEffect(() => {
         getCountries();
     }, [])
     return (
         <div className="container">
            <input type="search" onChange={(e) =>getByText(e) } />
-           <button>Selected Value</button>
+           <button onClick={()=> getValues()}>Selected Value</button>
 
            <ul className="searchBox">
            {countryList?.map((event,i) => <div>
-              <input type="checkbox" value={event.label.country} onChange={(e)=>console.log(e.target.value, e.target.checked)}/> <span key={i}>{event.label.country}</span>
+              <input type="checkbox" value={event.label.country} onChange={(e)=> getCheckBoxVal(e)}/> <span key={i}>{event.label.country}</span>
                </div>)}
 
            </ul>
