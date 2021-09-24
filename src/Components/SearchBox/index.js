@@ -26,8 +26,12 @@ const SearchBox = () => {
     return (
         <div className="container">
            <input type="search" onChange={(e) =>getByText(e) } />
-           <ul>
-           {countryList?.map((e,i) => <li key={i}>{e.label.country}</li>)}
+           <button>Selected Value</button>
+
+           <ul className="searchBox">
+           {countryList?.map((event,i) => <div>
+              <input type="checkbox" value={event.label.country} onChange={(e)=>console.log(e.target.value, e.target.checked)}/> <span key={i}>{event.label.country}</span>
+               </div>)}
 
            </ul>
         </div>
