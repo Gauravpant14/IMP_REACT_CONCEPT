@@ -6,6 +6,7 @@ import SideBar from "./Components/Sidebar";
 import TodoApp from "./Components/Todo";
 import UseContextHook from "./Components/hooks/UseContextUse";
 import UseRefUse from "./Components/hooks/UseRefUse";
+import SearchBox from "./Components/SearchBox";
 
 function App() {
   const [state,setState] = useState({
@@ -13,7 +14,8 @@ function App() {
     useRedHook:false,
     todoOpen:false,
     useCon:false,
-    useRef:false
+    useRef:false,
+    searchBox: false,
   })
 
   return (
@@ -31,6 +33,7 @@ function App() {
         {state.todoOpen && <TodoApp />}
         {state.useCon && <UseContextHook />}
         {state.useRef && <UseRefUse />}
+        {state.searchBox && <SearchBox />}
       </main>
     </div>
   );

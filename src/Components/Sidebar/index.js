@@ -35,6 +35,12 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.useRef ? 'red' : '#fff'}}>
                     UseRef Use
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    searchBox:!state.searchBox
+                })} style={{color: state.searchBox ? 'red' : '#fff'}}>
+                    Search Box
+                </li>
             </ul>
         </div>
     )

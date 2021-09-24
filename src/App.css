@@ -34,6 +34,8 @@
     width: 370px;
     height: 300px;
     margin-left: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
    
 }
 .container h2{
