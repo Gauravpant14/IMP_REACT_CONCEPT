@@ -7,7 +7,7 @@ const SearchBox = () => {
     const getCountries = async() => {
         const res = await fetch('https://api.first.org/data/v1/countries');
         const result = await res.json();
-        const countryArr = Object.entries(result.data).map(([k,v]) => ({
+        let countryArr = Object.entries(result.data).map(([k,v]) => ({
             value: k,
             label: v,
         }));
@@ -36,7 +36,7 @@ const SearchBox = () => {
     }
     useEffect(() => {
         getCountries();
-    }, [])
+    }, []);
     return (
         <div className="container">
            <input type="search" onChange={(e) =>getByText(e) } />

@@ -41,6 +41,12 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.searchBox ? 'red' : '#fff'}}>
                     Search Box
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    autoSuggest:!state.autoSuggest
+                })} style={{color: state.autoSuggest ? 'red' : '#fff'}}>
+                    Auto suggestions
+                </li>
             </ul>
         </div>
     )
