@@ -47,6 +47,12 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.autoSuggest ? 'red' : '#fff'}}>
                     Auto suggestions
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    table:!state.table
+                })} style={{color: state.table ? 'red' : '#fff'}}>
+                    React Table
+                </li>
             </ul>
         </div>
     )

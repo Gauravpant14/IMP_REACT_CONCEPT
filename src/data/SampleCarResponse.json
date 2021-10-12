@@ -1,0 +1,3512 @@
+ "cars": [
+        {
+            "vehicle_details": {
+                "car_model": "Ford Focus Or Similar",
+                "car_size": "Compact",
+                "sipp_code": "CCAR",
+                "car_category": {
+                    "code": "C",
+                    "value": "Compact"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 2,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/CCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=1411d4ef-a38d-46ae-9467-34c8737c0cb2::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Compact",
+            "rate_details": {
+                "rate_reference_id": "1411d4ef-a38d-46ae-9467-34c8737c0cb2",
+                "rate_expiration": "2021-10-11T12:12:16.516249",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "352.05",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1277.98",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1630.03",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Mazda 3 4 Door Or Similar",
+                "car_size": "Intermediate",
+                "sipp_code": "ICAR",
+                "car_category": {
+                    "code": "I",
+                    "value": "Intermediate"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 3,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/ICAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=ba2591aa-ee92-4b03-a24d-a60ff44f4692::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Intermediate",
+            "rate_details": {
+                "rate_reference_id": "ba2591aa-ee92-4b03-a24d-a60ff44f4692",
+                "rate_expiration": "2021-10-11T12:12:16.516492",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "374.67",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1378.26",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1752.93",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chevrolet Malibu Or Similar",
+                "car_size": "Full Size",
+                "sipp_code": "FCAR",
+                "car_category": {
+                    "code": "F",
+                    "value": "Fullsize"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/FCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=566b42d6-9fa0-47ce-bfff-b80f2e83e168::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Full%20Size",
+            "rate_details": {
+                "rate_reference_id": "566b42d6-9fa0-47ce-bfff-b80f2e83e168",
+                "rate_expiration": "2021-10-11T12:12:16.516632",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "392.64",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1457.95",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1850.59",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Buick Regal Or Similar",
+                "car_size": "Premium",
+                "sipp_code": "PCAR",
+                "car_category": {
+                    "code": "P",
+                    "value": "Premium"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/PCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=a11bb50e-ee43-4060-827d-8f8335152bc0::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Premium",
+            "rate_details": {
+                "rate_reference_id": "a11bb50e-ee43-4060-827d-8f8335152bc0",
+                "rate_expiration": "2021-10-11T12:12:16.516732",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "392.97",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1459.37",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1852.34",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chrysler 300 Or Similar",
+                "car_size": "Luxury",
+                "sipp_code": "LCAR",
+                "car_category": {
+                    "code": "L",
+                    "value": "Luxury"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 5,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/LCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=eab6d21b-8f26-46ea-81a1-5b29444ee5ce::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Luxury",
+            "rate_details": {
+                "rate_reference_id": "eab6d21b-8f26-46ea-81a1-5b29444ee5ce",
+                "rate_expiration": "2021-10-11T12:12:16.516932",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "480.66",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1848.23",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2328.89",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Nissan Rogue Or Similar",
+                "car_size": "Intermediate SUV",
+                "sipp_code": "IFAR",
+                "car_category": {
+                    "code": "I",
+                    "value": "Intermediate"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/IFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=77fb305c-3ccd-4ac0-9ad7-1748ee174328::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Intermediate%20SUV",
+            "rate_details": {
+                "rate_reference_id": "77fb305c-3ccd-4ac0-9ad7-1748ee174328",
+                "rate_expiration": "2021-10-11T12:12:16.517114",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "413.61",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1550.94",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1964.55",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chevrolet Equinox Or Similar",
+                "car_size": "Standard SUV",
+                "sipp_code": "SFAR",
+                "car_category": {
+                    "code": "S",
+                    "value": "Standard"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/SFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=f4583c87-5374-4e6e-86b6-e15c65efc23c::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Standard%20SUV",
+            "rate_details": {
+                "rate_reference_id": "f4583c87-5374-4e6e-86b6-e15c65efc23c",
+                "rate_expiration": "2021-10-11T12:12:16.517240",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "446.97",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1698.88",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2145.85",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Gmc Yukon Or Similar",
+                "car_size": "Full Size SUV",
+                "sipp_code": "FFAR",
+                "car_category": {
+                    "code": "F",
+                    "value": "Fullsize"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/FFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=db5b74b0-d0e6-488b-a213-fd79a8ea6087::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Full%20Size%20SUV",
+            "rate_details": {
+                "rate_reference_id": "db5b74b0-d0e6-488b-a213-fd79a8ea6087",
+                "rate_expiration": "2021-10-11T12:12:16.517382",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "708.34",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "2858.00",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "3566.34",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Ford Mustang Convertible Or Similar",
+                "car_size": "Convertible",
+                "sipp_code": "STAR",
+                "car_category": {
+                    "code": "S",
+                    "value": "Standard"
+                },
+                "car_type": {
+                    "code": "T",
+                    "value": "Convertible"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 4,
+                    "child_count": 0,
+                    "small_luggage_count": 2,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/STAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=c77eb8a5-1e67-43b5-8b2f-3ed105bfcbbb::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Convertible",
+            "rate_details": {
+                "rate_reference_id": "c77eb8a5-1e67-43b5-8b2f-3ed105bfcbbb",
+                "rate_expiration": "2021-10-11T12:12:16.517485",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "437.79",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1658.24",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2096.03",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chevrolet Suburban Or Similar",
+                "car_size": "Premium SUV",
+                "sipp_code": "PFAR",
+                "car_category": {
+                    "code": "P",
+                    "value": "Premium"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 6,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/PFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=177d4a6a-fa2d-4a5d-9c45-d010b661de71::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Premium%20SUV",
+            "rate_details": {
+                "rate_reference_id": "177d4a6a-fa2d-4a5d-9c45-d010b661de71",
+                "rate_expiration": "2021-10-11T12:12:16.517575",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "869.45",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "3572.50",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "4441.95",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Managers Special Or Similar",
+                "car_size": "Economy",
+                "sipp_code": "EXAR",
+                "car_category": {
+                    "code": "E",
+                    "value": "Economy"
+                },
+                "car_type": {
+                    "code": "X",
+                    "value": "Special"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 4,
+                    "child_count": 0,
+                    "small_luggage_count": 1,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/EXAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=aa7e42cf-5042-4507-8080-9de1ca2dd9ee::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Economy",
+            "rate_details": {
+                "rate_reference_id": "aa7e42cf-5042-4507-8080-9de1ca2dd9ee",
+                "rate_expiration": "2021-10-11T12:12:16.517668",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "356.70",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1298.56",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1655.26",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Nissan Pathfinder Or Similar",
+                "car_size": "Full Size",
+                "sipp_code": "FRAR",
+                "car_category": {
+                    "code": "F",
+                    "value": "Fullsize"
+                },
+                "car_type": {
+                    "code": "R",
+                    "value": "Recreational Vehicle"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 2,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/FRAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=a4e2d7f9-2122-4837-b4c0-df567058aafd::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Full%20Size",
+            "rate_details": {
+                "rate_reference_id": "a4e2d7f9-2122-4837-b4c0-df567058aafd",
+                "rate_expiration": "2021-10-11T12:12:16.517771",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "466.12",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1783.82",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2249.94",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Cadillac Escalade or Similar",
+                "car_size": "Luxury SUV",
+                "sipp_code": "LFAR",
+                "car_category": {
+                    "code": "L",
+                    "value": "Luxury"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/LFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=ce070ded-1d6e-4bd0-89a8-c8bf425bfaee::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Luxury%20SUV",
+            "rate_details": {
+                "rate_reference_id": "ce070ded-1d6e-4bd0-89a8-c8bf425bfaee",
+                "rate_expiration": "2021-10-11T12:12:16.517868",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "556.90",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "2186.37",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2743.27",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Mustang Gt Camaro Ss or Similar",
+                "car_size": "Standard",
+                "sipp_code": "RSAR",
+                "car_category": {
+                    "code": "R",
+                    "value": "Standard Elite"
+                },
+                "car_type": {
+                    "code": "S",
+                    "value": "Sport"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 3,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/RSAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=8303675a-99e7-433e-8f68-c38e192bf14d::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Standard",
+            "rate_details": {
+                "rate_reference_id": "8303675a-99e7-433e-8f68-c38e192bf14d",
+                "rate_expiration": "2021-10-11T12:12:16.518009",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "346.90",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1255.05",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1601.95",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Cadillac Xt5 or Similar",
+                "car_size": "Standard SUV",
+                "sipp_code": "RFAR",
+                "car_category": {
+                    "code": "R",
+                    "value": "Standard Elite"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/RFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=150fed43-163b-439f-80bb-4b69db645dd8::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Standard%20SUV",
+            "rate_details": {
+                "rate_reference_id": "150fed43-163b-439f-80bb-4b69db645dd8",
+                "rate_expiration": "2021-10-11T12:12:16.518111",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": false,
+                "credit_card_required": false,
+                "unlimited_mileage": true,
+                "free_cancellation": true,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "482.45",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1856.28",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2338.73",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Ford Focus Or Similar",
+                "car_size": "Compact",
+                "sipp_code": "CCAR",
+                "car_category": {
+                    "code": "C",
+                    "value": "Compact"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 2,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/CCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=85512dc4-5ebe-4686-8675-7c963d4b1cbf::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Compact",
+            "rate_details": {
+                "rate_reference_id": "85512dc4-5ebe-4686-8675-7c963d4b1cbf",
+                "rate_expiration": "2021-10-11T12:12:16.896099",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "308.83",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1086.26",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1395.09",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Mazda 3 4 Door Or Similar",
+                "car_size": "Intermediate",
+                "sipp_code": "ICAR",
+                "car_category": {
+                    "code": "I",
+                    "value": "Intermediate"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 3,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/ICAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=290e58ce-12fb-42f9-8ab5-466fba886f52::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Intermediate",
+            "rate_details": {
+                "rate_reference_id": "290e58ce-12fb-42f9-8ab5-466fba886f52",
+                "rate_expiration": "2021-10-11T12:12:16.896239",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "328.05",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1171.51",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1499.56",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chevrolet Malibu Or Similar",
+                "car_size": "Full Size",
+                "sipp_code": "FCAR",
+                "car_category": {
+                    "code": "F",
+                    "value": "Fullsize"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/FCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=cd9915e4-9592-40a6-95ea-5c26da2db9ab::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Full%20Size",
+            "rate_details": {
+                "rate_reference_id": "cd9915e4-9592-40a6-95ea-5c26da2db9ab",
+                "rate_expiration": "2021-10-11T12:12:16.896306",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "343.32",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1239.24",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1582.56",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Buick Regal Or Similar",
+                "car_size": "Premium",
+                "sipp_code": "PCAR",
+                "car_category": {
+                    "code": "P",
+                    "value": "Premium"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/PCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=3a007fe0-7f7b-4bc9-8073-dca953fbb118::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Premium",
+            "rate_details": {
+                "rate_reference_id": "3a007fe0-7f7b-4bc9-8073-dca953fbb118",
+                "rate_expiration": "2021-10-11T12:12:16.896366",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "343.65",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1240.66",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1584.31",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chrysler 300 Or Similar",
+                "car_size": "Luxury",
+                "sipp_code": "LCAR",
+                "car_category": {
+                    "code": "L",
+                    "value": "Luxury"
+                },
+                "car_type": {
+                    "code": "C",
+                    "value": "2/4 Door"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 5,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/LCAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=2f3de525-a29f-41a5-b18a-6b6808831b60::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Luxury",
+            "rate_details": {
+                "rate_reference_id": "2f3de525-a29f-41a5-b18a-6b6808831b60",
+                "rate_expiration": "2021-10-11T12:12:16.896425",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "418.14",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1571.00",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1989.14",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Nissan Rogue Or Similar",
+                "car_size": "Intermediate SUV",
+                "sipp_code": "IFAR",
+                "car_category": {
+                    "code": "I",
+                    "value": "Intermediate"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/IFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=3ef17f3c-4a90-421f-ada4-616413a9ca81::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Intermediate%20SUV",
+            "rate_details": {
+                "rate_reference_id": "3ef17f3c-4a90-421f-ada4-616413a9ca81",
+                "rate_expiration": "2021-10-11T12:12:16.896505",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "361.14",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1318.30",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1679.44",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chevrolet Equinox Or Similar",
+                "car_size": "Standard SUV",
+                "sipp_code": "SFAR",
+                "car_category": {
+                    "code": "S",
+                    "value": "Standard"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/SFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=65837555-d3e4-4aed-8743-d95186a6b4e8::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Standard%20SUV",
+            "rate_details": {
+                "rate_reference_id": "65837555-d3e4-4aed-8743-d95186a6b4e8",
+                "rate_expiration": "2021-10-11T12:12:16.896568",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "389.50",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1444.02",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1833.52",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Gmc Yukon Or Similar",
+                "car_size": "Full Size SUV",
+                "sipp_code": "FFAR",
+                "car_category": {
+                    "code": "F",
+                    "value": "Fullsize"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/FFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=8a7e6ef0-f2ec-4c30-a303-9d3a1d63276b::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Full%20Size%20SUV",
+            "rate_details": {
+                "rate_reference_id": "8a7e6ef0-f2ec-4c30-a303-9d3a1d63276b",
+                "rate_expiration": "2021-10-11T12:12:16.896635",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "676.13",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "2715.10",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "3391.23",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Ford Mustang Convertible Or Similar",
+                "car_size": "Convertible",
+                "sipp_code": "STAR",
+                "car_category": {
+                    "code": "S",
+                    "value": "Standard"
+                },
+                "car_type": {
+                    "code": "T",
+                    "value": "Convertible"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 4,
+                    "child_count": 0,
+                    "small_luggage_count": 2,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/STAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=a217c4e8-760b-4fe9-ba74-32dc855c4f00::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Convertible",
+            "rate_details": {
+                "rate_reference_id": "a217c4e8-760b-4fe9-ba74-32dc855c4f00",
+                "rate_expiration": "2021-10-11T12:12:16.896695",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "363.01",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1326.59",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1689.60",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Chevrolet Suburban Or Similar",
+                "car_size": "Premium SUV",
+                "sipp_code": "PFAR",
+                "car_category": {
+                    "code": "P",
+                    "value": "Premium"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 6,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/PFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=a8b5cd61-8442-4301-9d74-66bd3d5ff111::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Premium%20SUV",
+            "rate_details": {
+                "rate_reference_id": "a8b5cd61-8442-4301-9d74-66bd3d5ff111",
+                "rate_expiration": "2021-10-11T12:12:16.896752",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "829.18",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "3393.86",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "4223.04",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Managers Special Or Similar",
+                "car_size": "Economy",
+                "sipp_code": "EXAR",
+                "car_category": {
+                    "code": "E",
+                    "value": "Economy"
+                },
+                "car_type": {
+                    "code": "X",
+                    "value": "Special"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 4,
+                    "child_count": 0,
+                    "small_luggage_count": 1,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/EXAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=4e59c0bd-6d40-403d-ac48-99cf8895fa92::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Economy",
+            "rate_details": {
+                "rate_reference_id": "4e59c0bd-6d40-403d-ac48-99cf8895fa92",
+                "rate_expiration": "2021-10-11T12:12:16.896810",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "312.78",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1103.75",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1416.53",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Nissan Pathfinder Or Similar",
+                "car_size": "Full Size",
+                "sipp_code": "FRAR",
+                "car_category": {
+                    "code": "F",
+                    "value": "Fullsize"
+                },
+                "car_type": {
+                    "code": "R",
+                    "value": "Recreational Vehicle"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 2,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/FRAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=e1fe77c8-a5b9-419b-8cce-432c73acce43::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Full%20Size",
+            "rate_details": {
+                "rate_reference_id": "e1fe77c8-a5b9-419b-8cce-432c73acce43",
+                "rate_expiration": "2021-10-11T12:12:16.896878",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "405.77",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1516.21",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1921.98",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Cadillac Escalade or Similar",
+                "car_size": "Luxury SUV",
+                "sipp_code": "LFAR",
+                "car_category": {
+                    "code": "L",
+                    "value": "Luxury"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 7,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/LFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=8515dcb0-17d5-4b31-a8b6-a70fcf3b31b7::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Luxury%20SUV",
+            "rate_details": {
+                "rate_reference_id": "8515dcb0-17d5-4b31-a8b6-a70fcf3b31b7",
+                "rate_expiration": "2021-10-11T12:12:16.896939",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "507.58",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1967.73",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2475.31",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Mustang Gt Camaro Ss or Similar",
+                "car_size": "Standard",
+                "sipp_code": "RSAR",
+                "car_category": {
+                    "code": "R",
+                    "value": "Standard Elite"
+                },
+                "car_type": {
+                    "code": "S",
+                    "value": "Sport"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 3,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/RSAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=3b5eded6-9e44-4742-8b24-96de8479de91::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Standard",
+            "rate_details": {
+                "rate_reference_id": "3b5eded6-9e44-4742-8b24-96de8479de91",
+                "rate_expiration": "2021-10-11T12:12:16.897001",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "318.60",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1129.54",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "1448.14",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        },
+        {
+            "vehicle_details": {
+                "car_model": "Cadillac Xt5 or Similar",
+                "car_size": "Standard SUV",
+                "sipp_code": "RFAR",
+                "car_category": {
+                    "code": "R",
+                    "value": "Standard Elite"
+                },
+                "car_type": {
+                    "code": "F",
+                    "value": "SUV"
+                },
+                "transmission_drive": {
+                    "code": "A",
+                    "value": "Auto Unspecified Drive"
+                },
+                "fuel_ac": {
+                    "code": "R",
+                    "value": "Unspecified Fuel/Power With Air"
+                },
+                "capacity": {
+                    "adult_count": 5,
+                    "child_count": 0,
+                    "small_luggage_count": 4,
+                    "large_luggage_count": 0
+                },
+                "min_doors": 4,
+                "max_doors": 4,
+                "image_url": "https://www.autorentals.com/a/cimg/arentals/klv/RFAR-207x120.png"
+            },
+            "supplier_details": {
+                "id": "8",
+                "name": "Hertz",
+                "code": "8"
+            },
+            "pickup_details": {
+                "date_time": "2021-12-27T10:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "dropoff_details": {
+                "date_time": "2022-01-05T16:00",
+                "shuttle_category": "shuttle",
+                "location": {
+                    "location_id": "17294292",
+                    "location_name": "FT. LAUDERDALE INTL AP",
+                    "airport_code": "FLL",
+                    "address": {
+                        "address1": "600 TERMINAL DRIVE",
+                        "city": "FORT LAUDERDALE",
+                        "province": "FL",
+                        "postal_code": "33315",
+                        "country_code": "US",
+                        "phone_number": "9547125200"
+                    },
+                    "geo_info": {
+                        "latitude": 26.070100,
+                        "longitude": -80.141390
+                    }
+                },
+                "distance": {
+                    "value": 1.029,
+                    "unit": "KM",
+                    "direction": "ESE"
+                }
+            },
+            "deep_link": "https://www.autorentals.com/v1/ratedetail?pl=FLL&dl=FLL&pd=20211227&dd=20220105&pt=10:00AM&dt=04:00PM&rate_id=1a18bd8a-2303-4e23-8ee9-d8cdbbbbb23c::ZE&ar_search_source_id=13&search_id=d47c4e70-3fd3-492d-890d-7c76089b6680&device=D&ar_partner_id=5&remote-country=US&car_class=Standard%20SUV",
+            "rate_details": {
+                "rate_reference_id": "1a18bd8a-2303-4e23-8ee9-d8cdbbbbb23c",
+                "rate_expiration": "2021-10-11T12:12:16.897060",
+                "rental_days": 10,
+                "brand_id": 62,
+                "pre_pay_required": true,
+                "credit_card_required": true,
+                "unlimited_mileage": true,
+                "free_cancellation": false,
+                "flight_required": false,
+                "cost_details": {
+                    "taxes_and_fees": {
+                        "amount": "440.60",
+                        "currency_code": "USD"
+                    },
+                    "time_and_mileage": {
+                        "amount": "1670.64",
+                        "currency_code": "USD"
+                    },
+                    "total_cost": {
+                        "amount": "2111.24",
+                        "currency_code": "USD"
+                    }
+                },
+                "is_bookable": true,
+                "rate_expired": false
+            }
+        }
+    ]
