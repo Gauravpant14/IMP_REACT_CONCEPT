@@ -53,6 +53,12 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.table ? 'red' : '#fff'}}>
                     React Table
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    homePage:!state.homePage
+                })} style={{color: state.homePage ? 'red' : '#fff'}}>
+                   Home Page
+                </li>
             </ul>
         </div>
     )

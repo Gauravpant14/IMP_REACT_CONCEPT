@@ -76,7 +76,7 @@ const ReactTableEx = () => {
                return (
                  <td {...cell.getCellProps()}>
                    {// Render the cell contents
-                   cell.render('Cell')}
+                   cell.render('Cell')}vehicle_details
                  </td>
                )
              })}
@@ -85,6 +85,7 @@ const ReactTableEx = () => {
        })}
      </tbody>
       </table>
+  
     </div>
   );
 };

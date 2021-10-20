@@ -9,6 +9,7 @@ import UseRefUse from "./Components/hooks/UseRefUse";
 import SearchBox from "./Components/SearchBox";
 import { AutoSuggestt } from "./Components/AutoSuggestion";
 import ReactTableEx from "./Components/ReactTableEx";
+import HomePage from "./Components/Homepage";
 
 function App() {
   const [state,setState] = useState({
@@ -20,6 +21,7 @@ function App() {
     searchBox: false,
     autoSuggest:false,
     table:false,
+    homePage:false,
   })
 
   return (
@@ -40,6 +42,7 @@ function App() {
         {state.searchBox && <SearchBox />}
         {state.autoSuggest && <AutoSuggestt />}
         {state.table && <ReactTableEx />}
+        {state.homePage && <HomePage />}
       </main>
     </div>
   );
