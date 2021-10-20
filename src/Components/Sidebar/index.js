@@ -29,6 +29,36 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.todoOpen ? 'red' : '#fff'}}>
                     Todo App
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    useRef:!state.useRef
+                })} style={{color: state.useRef ? 'red' : '#fff'}}>
+                    UseRef Use
+                </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    searchBox:!state.searchBox
+                })} style={{color: state.searchBox ? 'red' : '#fff'}}>
+                    Search Box
+                </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    autoSuggest:!state.autoSuggest
+                })} style={{color: state.autoSuggest ? 'red' : '#fff'}}>
+                    Auto suggestions
+                </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    table:!state.table
+                })} style={{color: state.table ? 'red' : '#fff'}}>
+                    React Table
+                </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    homePage:!state.homePage
+                })} style={{color: state.homePage ? 'red' : '#fff'}}>
+                   Home Page
+                </li>
             </ul>
         </div>
     )
