@@ -10,6 +10,7 @@ import SearchBox from "./Components/SearchBox";
 import { AutoSuggestt } from "./Components/AutoSuggestion";
 import ReactTableEx from "./Components/ReactTableEx";
 import HomePage from "./Components/Homepage";
+import TablePagination from "./Components/TablePagination";
 
 function App() {
   const [state,setState] = useState({
@@ -22,6 +23,7 @@ function App() {
     autoSuggest:false,
     table:false,
     homePage:false,
+    tablePagination:false,
   })
 
   return (
@@ -43,6 +45,7 @@ function App() {
         {state.autoSuggest && <AutoSuggestt />}
         {state.table && <ReactTableEx />}
         {state.homePage && <HomePage />}
+        {state.tablePagination && <TablePagination />}
       </main>
     </div>
   );

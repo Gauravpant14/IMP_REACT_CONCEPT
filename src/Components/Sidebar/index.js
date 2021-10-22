@@ -59,6 +59,12 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.homePage ? 'red' : '#fff'}}>
                    Home Page
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    tablePagination:!state.tablePagination
+                })} style={{color: state.tablePagination ? 'red' : '#fff'}}>
+                   Table Pagination
+                </li>
             </ul>
         </div>
     )
