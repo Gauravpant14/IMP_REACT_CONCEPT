@@ -65,9 +65,15 @@ const SideBar = ({state,setState}) => {
                 })} style={{color: state.tablePagination ? 'red' : '#fff'}}>
                    Table Pagination
                 </li>
+                <li onClick={()=> setState({
+                    ...state,
+                    oktaApp:!state.oktaApp
+                })} style={{color: state.oktaApp ? 'red' : '#fff'}}>
+                   oktaApp
+                </li>
             </ul>
         </div>
-    )
+    ) 
 }
 
 export default SideBar

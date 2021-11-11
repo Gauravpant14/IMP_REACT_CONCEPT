@@ -1,10 +1,10 @@
-import { getByText } from '@testing-library/dom';
 import React,{useState,useEffect} from 'react'
 
 const SearchBox = () => {
     const [countryApi,setCountryApi] = useState([]); // save filtered result to this state
     const [countryList,setCountries] = useState([]); //We will filter using this state
     const getCountries = async() => {
+        try{
         const res = await fetch('https://api.first.org/data/v1/countries');
         const result = await res.json();
         let countryArr = Object.entries(result.data).map(([k,v]) => ({
@@ -12,7 +12,10 @@ const SearchBox = () => {
             label: v,
         }));
         setCountryApi(countryArr);
-        setCountries(countryArr);
+        setCountries(countryArr);}
+        catch(e){
+            console.log(e);
+        }
     }
     
     const getByText = (e) => {

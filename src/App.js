@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { BrowserRouter as Router, Route, useHistory } from "react-router-dom";
+import { Security, SecureRoute } from "@okta/okta-react";
+import { OktaAuth, toRelativeUrl } from "@okta/okta-auth-js";
 import "./App.css";
 import SecondaryCheckbox from "./Components/CheckBox/SecondaryCheckbox";
 import UseReducer from "./Components/hooks/UseReducer/UseReducer";
@@ -33,8 +36,6 @@ function App() {
         setState={setState}
 
       />
-   
-      {/* <button onClick={()=> setState((p) => console.log(p))}>chagne</button> */}
       <main>
         {state.checkbox && <SecondaryCheckbox/>}
         {state.useRedHook && <UseReducer />}

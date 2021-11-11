@@ -18,6 +18,17 @@ const SecondaryCheckbox = () => {
     ],
   });
 
+
+  const allCategories = [
+    "All",
+    ...new Set(festival.data?.map((item) => item)),
+  ].map((data) => ({
+    name: data,
+    selected: false,
+  }));
+
+  console.log(allCategories, 'allCAt-----------------');
+
   const handleChange = (e) => {
     let itemName = e.target.name;
     let checked = e.target.checked;
