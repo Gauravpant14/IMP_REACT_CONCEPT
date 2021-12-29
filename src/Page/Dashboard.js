@@ -12,6 +12,7 @@ import SideBar from "../Components/Sidebar";
 import TablePagination from "../Components/TablePagination";
 import TodoApp from "../Components/Todo";
 import "../App.css";
+import UseReducerEx from "../Components/UseReducerEx";
 const Dashboard = () => {
   const [state, setState] = useState({
     checkbox: false,
@@ -24,6 +25,7 @@ const Dashboard = () => {
     table: false,
     homePage: false,
     tablePagination: false,
+    useReducer:false,
   });
 
   return (
@@ -41,6 +43,7 @@ const Dashboard = () => {
         {state.table && <ReactTableEx />}
         {state.homePage && <HomePage />}
         {state.tablePagination && <TablePagination />}
+        {state.useReducer && <UseReducerEx />}
       </main>
     </div>
   );

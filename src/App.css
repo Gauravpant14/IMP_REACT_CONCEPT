@@ -1,6 +1,6 @@
 .sideBar {
   width: 20%;
-  height: 100vh;
+  /* height: 100vh; */
   background: #24344C;
   border-right: 5px solid #7d7b7b;
 }
@@ -127,4 +127,8 @@ main{
 
 .react-autosuggest__suggestion--highlighted {
   background-color: #ddd;
+}
+
+.pagination{
+  display: block !important;
 }

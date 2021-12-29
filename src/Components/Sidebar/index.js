@@ -67,9 +67,9 @@ const SideBar = ({state,setState,className}) => {
                 </li>
                 <li onClick={()=> setState({
                     ...state,
-                    oktaApp:!state.oktaApp
-                })} style={{color: state.oktaApp ? 'red' : '#fff'}}>
-                   oktaApp
+                    useReducer:!state.useReducer
+                })} style={{color: state.useReducer ? 'red' : '#fff'}}>
+                   useReducer ex 2
                 </li>
             </ul>
         </div>
