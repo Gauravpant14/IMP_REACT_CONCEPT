@@ -53,9 +53,9 @@ const TodoApp = () => {
             <input type="text" value={name} onChange={(e)=> setName(e.target.value)} />
             <div className="todoslist">
             {
-                todo.map((e) => {
+                todo.map((e, i) => {
                     return (
-                        <div key={e.id}>
+                        <div key={e.id + i }>
                             <div>
                                 <input type="checkbox" name={e.name} value={e.name} onChange={(info) => checkBoxDetails(info,e.id) }/>
                                 <li onClick={()=> dispatch({type: ACTIONS.DELETE_TODO, payload:{id: e.id}})} style={{color: e.completed ? 'green' : 'red'}} >

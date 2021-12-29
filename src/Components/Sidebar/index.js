@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SideBar = ({state,setState}) => {
+const SideBar = ({state,setState,className}) => {
 
     return (
-        <div className=" sideBar">
+        <div className={`sideBar ${className}`}>
             <ul>
                 <li onClick={()=> setState({
                     ...state,

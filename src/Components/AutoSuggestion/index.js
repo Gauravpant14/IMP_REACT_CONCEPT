@@ -4,14 +4,18 @@ import Autosuggest from "react-autosuggest";
 export const AutoSuggestt = () => {
   const [languages, setLanguages] = useState([]);
   const fetchCountry = async () => {
-    const res = await fetch("https://api.first.org/data/v1/countries");
-    const result = await res.json();
-    const finalResult = Object.entries(result.data).map(([k, v]) => ({
-      name: v.country,
-      region: v.region,
-    }));
-    console.log(finalResult);
-    setLanguages(finalResult);
+    try {
+      const res = await fetch("https://api.first.org/data/v1/countries");
+      const result = await res.json();
+      const finalResult = Object.entries(result.data).map(([k, v]) => ({
+        name: v.country,
+        region: v.region,
+      }));
+      console.log(finalResult);
+      setLanguages(finalResult);
+    } catch (e) {
+      console.log(e);
+    }
   };
   useEffect(() => {
     fetchCountry();

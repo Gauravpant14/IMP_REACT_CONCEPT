@@ -1,53 +1,26 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, useHistory } from "react-router-dom";
-import { Security, SecureRoute } from "@okta/okta-react";
-import { OktaAuth, toRelativeUrl } from "@okta/okta-auth-js";
-import "./App.css";
-import SecondaryCheckbox from "./Components/CheckBox/SecondaryCheckbox";
-import UseReducer from "./Components/hooks/UseReducer/UseReducer";
-import SideBar from "./Components/Sidebar";
-import TodoApp from "./Components/Todo";
-import UseContextHook from "./Components/hooks/UseContextUse";
-import UseRefUse from "./Components/hooks/UseRefUse";
-import SearchBox from "./Components/SearchBox";
-import { AutoSuggestt } from "./Components/AutoSuggestion";
-import ReactTableEx from "./Components/ReactTableEx";
-import HomePage from "./Components/Homepage";
-import TablePagination from "./Components/TablePagination";
-
+import React from "react";
+import { Routes, Route, Navigate } from "react-router";
+import NavBar from "./Components/NavBar/NavBar";
+import Dashboard from "./Page/Dashboard";
+import Login from "./Page/Login/Login";
+import Registration from "./Page/Registration/Index";
 function App() {
-  const [state,setState] = useState({
-    checkbox:false,
-    useRedHook:false,
-    todoOpen:false,
-    useCon:false,
-    useRef:false,
-    searchBox: false,
-    autoSuggest:false,
-    table:false,
-    homePage:false,
-    tablePagination:false,
-  })
-
   return (
-    <div className="App">
-      <SideBar
-        state={state}
-        setState={setState}
-
-      />
-      <main>
-        {state.checkbox && <SecondaryCheckbox/>}
-        {state.useRedHook && <UseReducer />}
-        {state.todoOpen && <TodoApp />}
-        {state.useCon && <UseContextHook />}
-        {state.useRef && <UseRefUse />}
-        {state.searchBox && <SearchBox />}
-        {state.autoSuggest && <AutoSuggestt />}
-        {state.table && <ReactTableEx />}
-        {state.homePage && <HomePage />}
-        {state.tablePagination && <TablePagination />}
-      </main>
+    <div>
+        <NavBar />
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="dashboard" element={<Dashboard />}>
+          <Route path="setting" element={<Login />} />
+        </Route>
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/signin" element={<Navigate to="/" />} />
+        <Route
+          path="/signup"
+          element={<Navigate replace to="/registration" />}
+        />
+        {/*{<Navigate replace to="/registration" /> will truly replace the path , not at the top of another existing route */}
+      </Routes>
     </div>
   );
 }
