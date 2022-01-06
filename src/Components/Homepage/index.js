@@ -16,7 +16,7 @@ const HomePage = () => {
   console.log(cheapCars);
   return (
     <div>
-      {/* {cars.map((ele) => (
+      {/* {cheapCars.map((ele) => (
         <div className="card">
           <div className="section">
                 <h4>{ele.vehicle_details.car_model}</h4>

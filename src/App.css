@@ -5,6 +5,11 @@
   border-right: 5px solid #7d7b7b;
 }
 
+.navClass a {
+  text-decoration: none!important;
+  color: #24344C;
+}
+
 .sideBar ul {
   list-style: none;
   display: flex;

@@ -4,6 +4,8 @@ import NavBar from "./Components/NavBar/NavBar";
 import Dashboard from "./Page/Dashboard";
 import Login from "./Page/Login/Login";
 import Registration from "./Page/Registration/Index";
+import SagaProfile from "./Page/SagaProfile";
+import PhotoSagaEx from "./Page/SagaProfile/PhotoSagaEx";
 function App() {
   return (
     <div>
@@ -18,6 +20,14 @@ function App() {
         <Route
           path="/signup"
           element={<Navigate replace to="/registration" />}
+        />
+         <Route
+          path="/saga"
+          element={<SagaProfile />}
+        />
+         <Route
+          path="/psaga"
+          element={<PhotoSagaEx />}
         />
         {/*{<Navigate replace to="/registration" /> will truly replace the path , not at the top of another existing route */}
       </Routes>
