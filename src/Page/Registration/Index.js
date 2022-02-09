@@ -58,7 +58,7 @@ const Registration = () => {
           Submit
         </a> */}
         <Link to="/dashboard" className="btn btn-primary">
-          Submit
+          Submitt
         </Link>
       </form>
     </div>

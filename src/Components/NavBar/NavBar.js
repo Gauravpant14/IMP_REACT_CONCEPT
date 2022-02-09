@@ -23,6 +23,9 @@ const NavBarr = () => {
         <li class="nav-item navClass" style={{marginLeft: "5px"}}>
          <Link to="/dashboard" style={{color:"black"}}>Dashboard</Link>
         </li>
+        <li class="nav-item navClass" style={{marginLeft: "5px"}}>
+         <Link to="/interview" style={{color:"black"}}>Interview Prepration</Link>
+        </li>
       </ul>
     </div>
   </div>
