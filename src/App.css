@@ -1,6 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .sideBar {
   width: 20%;
-  /* height: 100vh; */
+  height: 100%;
   background: #24344C;
   border-right: 5px solid #7d7b7b;
 }
