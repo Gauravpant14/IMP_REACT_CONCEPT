@@ -48,7 +48,7 @@ const CapitalizeFirstLetter = () => {
     setFirstLetter(str.charAt(0).toUpperCase() + str.slice(1));
   };
   return (
-    <div>
+    <div className="container">
       <div className="card">
         <header className="card-header">
           Capitalize First Letter of a String
@@ -57,9 +57,9 @@ const CapitalizeFirstLetter = () => {
           <code>
             let str = {dummyString};
             <br />
-            const strArr = str.split(' ');
+             {"   "}const strArr = str.split(' ');
             <br />
-            const capitalizeArr = strArr?.map((e,i) ={">"}{" "}
+             {"   "}const capitalizeArr = strArr?.map((e,i) ={">"}{" "}
             e[0]?.toUpperCase()+e.slice(1) ).join(' ')
           </code>
           <div>
@@ -99,9 +99,9 @@ const CapitalizeFirstLetter = () => {
               </p>
             }
           </div>
-          <br />
+          
         </div>
-        {/* {capitalizeFun()} */}
+
         <footer className="card-footer">
           <button
             className="card-footer-item"

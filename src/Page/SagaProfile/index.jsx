@@ -13,6 +13,8 @@ const SagaProfile = () => {
       <h2>
         {name} born year is  {age}
       </h2>
+      <span>***wait for 5 second to update dob</span>
+      <br/>
       <button
         onClick={() => dispatch({ type: "UPDATE_NAME"})}
       >
