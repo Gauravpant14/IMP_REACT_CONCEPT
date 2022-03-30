@@ -1,5 +1,7 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router";
+import AllForms from "./Components/Forms";
+import BasicForm from "./Components/Forms/BasicForm";
 import NavBar from "./Components/NavBar/NavBar";
 import Layout from "./Layout/Layout";
 import Dashboard from "./Page/Dashboard";
@@ -28,6 +30,9 @@ function App() {
           <Route path="/saga" element={<SagaProfile />} />
           <Route path="/psaga" element={<PhotoSagaEx />} />
           <Route path="/interview" element={<InterviewPrep />} />
+          <Route path="/form-related" element={<AllForms />} />
+          
+          
           {/*{<Navigate replace to="/registration" /> will truly replace the path , not at the top of another existing route */}
         </Routes>
       {/* </Layout> */}

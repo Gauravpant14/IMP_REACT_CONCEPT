@@ -4,6 +4,7 @@ import CapitalizeFirstLetter from "../../InterviewRelated/CapitalizeFirstLetter"
 import CountDuplicateElem from "../../InterviewRelated/CountDuplicateElements";
 import CountVowels from "../../InterviewRelated/CountVowels";
 import DeleteItem from "../../InterviewRelated/DeleteSpecific";
+import InterviewStuff from "../../InterviewRelated/Interview25Feb";
 import LongestInString from "../../InterviewRelated/LongestInString";
 import OddEvenElement from "../../InterviewRelated/OddEvenElement";
 import ReverseString from "../../InterviewRelated/ReverseString";
@@ -29,6 +30,7 @@ const InterviewPrep = () => {
      <DeleteItem />
      <OddEvenElement />
      <CountDuplicateElem />
+     <InterviewStuff />
     </div>
   );
 };

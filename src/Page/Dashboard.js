@@ -13,6 +13,7 @@ import TablePagination from "../Components/TablePagination";
 import TodoApp from "../Components/Todo";
 import "../App.css";
 import UseReducerEx from "../Components/UseReducerEx";
+import UseReducerExample3 from "../Components/UseReducerExample3";
 const Dashboard = () => {
   const [state, setState] = useState({
     checkbox: false,
@@ -26,6 +27,7 @@ const Dashboard = () => {
     homePage: false,
     tablePagination: false,
     useReducer:false,
+    useReducer3:false,
   });
 
   return (
@@ -44,6 +46,7 @@ const Dashboard = () => {
         {state.homePage && <HomePage />}
         {state.tablePagination && <TablePagination />}
         {state.useReducer && <UseReducerEx />}
+        {state.useReducer3 && <UseReducerExample3 />}
       </main>
     </div>
   );

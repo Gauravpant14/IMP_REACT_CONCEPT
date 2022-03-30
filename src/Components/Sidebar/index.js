@@ -72,9 +72,11 @@ const SideBar = ({state,setState,className}) => {
                 })} style={{color: state.useReducer ? 'red' : '#fff'}}  className="w3-bar-item w3-button">
                    useReducer ex 2
                 </li>
-                <li className="w3-bar-item w3-button">
-
-                {/* <Link to="/">Drag and Drop</Link> */}
+                <li onClick={()=> setState({
+                    ...state,
+                    useReducer3:!state.useReducer3
+                })} style={{color: state.useReducer3 ? 'red' : '#fff'}}  className="w3-bar-item w3-button">
+                   useReducer ex 3
                 </li>
             </ul>
         </div>
