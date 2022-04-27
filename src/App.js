@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, Navigate } from "react-router";
+import LifeCycleA from "./ClassComponents/LifeCycleA";
 import AllForms from "./Components/Forms";
 import BasicForm from "./Components/Forms/BasicForm";
 import NavBar from "./Components/NavBar/NavBar";
@@ -16,6 +17,7 @@ function App() {
       {/* <Layout> */}
         <NavBar />
         {/* <Dashboard /> */}
+        <LifeCycleA />
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="dashboard" element={<Dashboard />}>
