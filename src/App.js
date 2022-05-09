@@ -5,6 +5,10 @@ import ParentComp from "./ClassComponents/PureComEx/ParentComp";
 import AllForms from "./Components/Forms";
 import BasicForm from "./Components/Forms/BasicForm";
 import NavBar from "./Components/NavBar/NavBar";
+import ErrBoundary from "./ErrBoundaryExample/ErrBoundary";
+import ErrorBoundary from "./ErrBoundaryExample/ErrorBoundary";
+import ClickCounter from "./HigherOrderComponent/ClickCounter";
+import HoverCounter from "./HigherOrderComponent/HoverCounter";
 import Layout from "./Layout/Layout";
 import Dashboard from "./Page/Dashboard";
 import InterviewPrep from "./Page/InterviewPrep";
@@ -12,6 +16,7 @@ import Login from "./Page/Login/Login";
 import Registration from "./Page/Registration/Index";
 import SagaProfile from "./Page/SagaProfile";
 import PhotoSagaEx from "./Page/SagaProfile/PhotoSagaEx";
+import PortalDemo from "./PortalDemo/PortalDemo";
 const renderRoutes = () => {
   return (
     <Routes>
@@ -38,8 +43,21 @@ function App() {
       {/* <NavBar /> */}
       {/* <Dashboard /> */}
       {/* <LifeCycleA /> */}
-      <ParentComp />
-      {renderRoutes()}
+      {/* <ParentComp /> */}
+      {/* <PortalDemo /> */}
+
+      {/* <ErrorBoundary>
+        <ErrBoundary heroName="joker" />
+      </ErrorBoundary> */}
+
+
+      {/* <---- Higher order funtion example starts ----> */}
+      <ClickCounter name="Passing down data"/>
+      <HoverCounter name="Passing in hover component"/>
+      {/* <---- Higher order funtion example end ----> */}
+
+      {/* {renderRoutes()} */}
+
       {/* </Layout> */}
     </div>
   );
